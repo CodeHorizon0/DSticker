@@ -258,8 +258,6 @@ async def main() -> None:
         ),
     )
 
-    logger.info("Bot started")
-
     try:
         await dp.start_polling(bot)
     finally:
